@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="springloud-demo" />
-        <module name="service-ribbon" />
         <module name="eureka" />
+        <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
   </component>
