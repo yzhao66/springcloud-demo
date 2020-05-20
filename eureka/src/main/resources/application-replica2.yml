@@ -1,0 +1,10 @@
+server:
+  port: 8763
+eureka:
+  instance:
+    hostname: replica2
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://replica1:8762/eureka/
