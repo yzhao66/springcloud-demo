@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-zuul" />
-        <module name="config-client" />
-        <module name="eureka-client" />
         <module name="config-server" />
-        <module name="service-feign" />
-        <module name="eureka" />
-        <module name="servie-feign" />
+        <module name="service-zuul" />
         <module name="service-ribbon" />
-        <module name="springloud-demo" />
+        <module name="eureka-security-server" />
         <module name="service-fegin" />
+        <module name="eureka-client" />
+        <module name="config-client" />
+        <module name="springcloud-demo" />
+        <module name="servie-feign" />
+        <module name="springloud-demo" />
+        <module name="eureka-server" />
+        <module name="service-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,13 +29,15 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
-      <module name="eureka" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
+      <module name="eureka-security-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="service-fegin" options="-parameters" />
       <module name="service-feign" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
       <module name="servie-feign" options="-parameters" />
+      <module name="springcloud-demo" options="" />
     </option>
   </component>
 </project>

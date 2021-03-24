@@ -1,4 +1,4 @@
-package org.example.eurekaclient;
+package com.example.eurekasecurityserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurekaClientApplicationTests {
+public class EurekaSecurityServerApplicationTests {
 
     @Test
     public void contextLoads() {
