@@ -1,5 +1,9 @@
 server:
-  port: 8761
+  port: 8001
+
+spring:
+  application:
+    name: eureka-serve
 
 eureka:
   instance:
@@ -7,6 +11,5 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-spring:
-  application:
-    name: eureka
+
+
